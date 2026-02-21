@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "witheringsearing:block/withered_hyphae",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "witheringsearing:block/withered_hyphae"
+    },
+    "axis=z": {
+      "model": "witheringsearing:block/withered_hyphae",
+      "x": 90
+    }
+  }
+}

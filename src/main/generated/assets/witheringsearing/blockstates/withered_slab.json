@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "witheringsearing:block/withered_slab"
+    },
+    "type=double": {
+      "model": "witheringsearing:block/withered_planks"
+    },
+    "type=top": {
+      "model": "witheringsearing:block/withered_slab_top"
+    }
+  }
+}

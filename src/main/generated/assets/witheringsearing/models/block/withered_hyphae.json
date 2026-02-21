@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "witheringsearing:block/withered_stem",
+    "side": "witheringsearing:block/withered_stem"
+  }
+}
