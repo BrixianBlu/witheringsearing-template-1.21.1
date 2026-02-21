@@ -33,7 +33,7 @@ public class WSBlocks {
     public static final Block WITHERED_WART_BLOCK = registerBlock("withered_wart_block",
             new NetherWartBlock(AbstractBlock.Settings.copy(Blocks.NETHER_WART_BLOCK)));
     public static final Block STRIPPED_WITHERED_HYPHAE = registerBlock("stripped_withered_hyphae",
-            new Block(AbstractBlock.Settings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE)));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.STRIPPED_CRIMSON_HYPHAE)));
     public static final Block WITHERED_PLANKS = registerBlock("withered_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.CRIMSON_PLANKS)));
     public static final Block WITHERED_STAIRS = registerBlock("withered_stairs",
@@ -51,11 +51,11 @@ public class WSBlocks {
     public static final TerraformSignBlock WITHERED_SIGN = (TerraformSignBlock) registerBlockWithoutBlockItem("withered_sign",
             new TerraformSignBlock(SIGN_TEXTURE_ID, AbstractBlock.Settings.copy(CRIMSON_SIGN)));
     public static final TerraformWallSignBlock WITHERED_WALL_SIGN = (TerraformWallSignBlock) registerBlockWithoutBlockItem("withered_wall_sign",
-            new TerraformWallSignBlock(CUSTOM_WALL_SIGN_ID, AbstractBlock.Settings.copy(CRIMSON_WALL_SIGN).dropsLike(WITHERED_SIGN)));
+            new TerraformWallSignBlock(SIGN_TEXTURE_ID, AbstractBlock.Settings.copy(CRIMSON_WALL_SIGN).dropsLike(WITHERED_SIGN)));
     public static final TerraformHangingSignBlock WITHERED_HANGING_SIGN = (TerraformHangingSignBlock) registerBlockWithoutBlockItem("withering_hanging_sign",
             new TerraformHangingSignBlock(HANGING_SIGN_TEXTURE_ID, HANGING_SIGN_GUI_TEXTURE_ID, AbstractBlock.Settings.copy(CRIMSON_HANGING_SIGN)));
     public static final TerraformWallHangingSignBlock WITHERED_WALL_HANGING_SIGN = (TerraformWallHangingSignBlock) registerBlockWithoutBlockItem("withered_wall_hanging_sign",
-            new TerraformWallHangingSignBlock(CUSTOM_WALL_HANGING_SIGN_ID, HANGING_SIGN_GUI_TEXTURE_ID, AbstractBlock.Settings.copy(CRIMSON_WALL_HANGING_SIGN).dropsLike(WITHERED_HANGING_SIGN)));
+            new TerraformWallHangingSignBlock(HANGING_SIGN_TEXTURE_ID, HANGING_SIGN_GUI_TEXTURE_ID, AbstractBlock.Settings.copy(CRIMSON_WALL_HANGING_SIGN).dropsLike(WITHERED_HANGING_SIGN)));
     public static final Block CYAN_NETHER_BRICKS = registerBlock("cyan_nether_bricks",
             new Block(AbstractBlock.Settings.copy(Blocks.RED_NETHER_BRICKS)));
     public static final Block CYAN_NETHER_BRICKS_SLAB = registerBlock("cyan_nether_bricks_slab",
@@ -76,6 +76,12 @@ public class WSBlocks {
             new WitheredNyliumBlock(AbstractBlock.Settings.copy(CRIMSON_NYLIUM)));
     public static final Block WITHERED_ROOTS = registerBlock("withered_roots",
             new RootsBlock(AbstractBlock.Settings.copy(WARPED_ROOTS)));
+    public static final Block WITHERED_DOOR = registerBlock("withered_door",
+            new DoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(CRIMSON_DOOR)));
+    public static final Block WITHERED_TRAPDOOR = registerBlock("withered_trapdoor",
+            new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(CRIMSON_TRAPDOOR)));
+    public static final Block WITHERING_SOUL_SAND = registerBlock("withering_soul_sand",
+            new SoulSandBlock(AbstractBlock.Settings.copy(SOUL_SAND)));
 
 
 

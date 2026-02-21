@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.brixian.witheringsearing.WitheringSearingDataGenerator"
+		],
+		"terrablender": [
+			"net.brixian.witheringsearing.world.biome.WSModTerrablenderAPI"
 		]
 	},
 	"mixins": [

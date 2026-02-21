@@ -12,7 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class WSItems {
-    public static final Item WITHERED_SIGN = registerItem("withering_sign", new SignItem(
+    public static final Item WITHERED_SIGN = registerItem("withered_sign", new SignItem(
             new Item.Settings().maxCount(16), WSBlocks.WITHERED_SIGN, WSBlocks.WITHERED_WALL_SIGN));
     public static final Item WITHERED_HANGING_SIGN = registerItem("withered_hanging_sign",
             new HangingSignItem(WSBlocks.WITHERED_HANGING_SIGN, WSBlocks.WITHERED_WALL_HANGING_SIGN, new Item.Settings().maxCount(16)));
