@@ -1,0 +1,9 @@
+{
+  "asset_name": "ruby",
+  "description": {
+    "color": "#FF1124",
+    "translate": "trim_material.witheringsearing.ruby"
+  },
+  "ingredient": "minecraft:echo_shard",
+  "item_model_index": 1.0
+}
