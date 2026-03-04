@@ -5,6 +5,7 @@ import com.terraformersmc.terraform.sign.api.block.TerraformSignBlock;
 import com.terraformersmc.terraform.sign.api.block.TerraformWallHangingSignBlock;
 import com.terraformersmc.terraform.sign.api.block.TerraformWallSignBlock;
 import net.brixian.witheringsearing.WitheringSearing;
+import net.brixian.witheringsearing.world.WSConfiguredFeatures;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -82,6 +83,8 @@ public class WSBlocks {
             new TrapdoorBlock(BlockSetType.CRIMSON, AbstractBlock.Settings.copy(CRIMSON_TRAPDOOR)));
     public static final Block WITHERING_SOUL_SAND = registerBlock("withering_soul_sand",
             new SoulSandBlock(AbstractBlock.Settings.copy(SOUL_SAND)));
+    public static final Block WITHERED_FUNGUS = registerBlock("withered-fungus",
+            new FungusBlock(WSConfiguredFeatures.WITHERED_FUNGUS_PLANTED, WITHERED_NYLIUM, AbstractBlock.Settings.copy(CRIMSON_FUNGUS)));
 
 
 

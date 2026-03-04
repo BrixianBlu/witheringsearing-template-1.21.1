@@ -3,6 +3,8 @@ package net.brixian.witheringsearing.world.biome;
 import net.brixian.witheringsearing.WitheringSearing;
 import net.brixian.witheringsearing.world.biome.surface.WSMaterialRules;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.fluid.FlowableFluid;
+import net.minecraft.fluid.LavaFluid;
 import net.minecraft.util.Identifier;
 import terrablender.api.RegionType;
 import terrablender.api.Regions;

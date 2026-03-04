@@ -1,8 +1,10 @@
 package net.brixian.witheringsearing;
 
+import net.brixian.witheringsearing.datagen.WSItemTagsProvider;
 import net.brixian.witheringsearing.datagen.WSModelGenerator;
 import net.brixian.witheringsearing.datagen.WSBlockTagGenerator;
 import net.brixian.witheringsearing.datagen.WSRegistryProvider;
+import net.brixian.witheringsearing.trim.WSTrimMaterials;
 import net.brixian.witheringsearing.world.WSConfiguredFeatures;
 import net.brixian.witheringsearing.world.WSPlacedFeatures;
 import net.brixian.witheringsearing.world.biome.WSBiomes;
@@ -18,6 +20,7 @@ public class WitheringSearingDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(WSBlockTagGenerator::new);
 		pack.addProvider(WSModelGenerator::new);
 		pack.addProvider(WSRegistryProvider::new);
+		pack.addProvider(WSItemTagsProvider::new);
 
 
 
@@ -27,5 +30,6 @@ public class WitheringSearingDataGenerator implements DataGeneratorEntrypoint {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, WSConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, WSPlacedFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.BIOME, WSBiomes::boostrap);
+		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, WSTrimMaterials::bootstrap);
 	}
 }

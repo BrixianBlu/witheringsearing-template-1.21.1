@@ -1,2 +1,6 @@
-// 1.21.1	2026-02-20T22:11:50.4422935	Withering&Searing/
-1a52f65693fcb1f0391c1fbdd44ba0ec48776525 data\witheringsearing\worldgen\biome\withered_forest.json
+// 1.21.1	2026-03-03T20:20:28.2523792	Withering&Searing/
+e4664f9e5c329b8f76256bd6a2afba1e3626dc03 data\witheringsearing\worldgen\configured_feature\withered_fungus.json
+7ff8efcc3571a5862a4413be8daefbdb489a90fc data\witheringsearing\trim_material\ruby.json
+4349c2df34a996fe866361c07fbf5a9560514d5f data\witheringsearing\worldgen\biome\withered_forest.json
+02985c8167398dfbf4bbb047cb37add12e4a6083 data\witheringsearing\worldgen\configured_feature\withered_fungus_planted.json
+4ca7ff60e58c2c7b9c1a187caa74306a579320a5 data\witheringsearing\worldgen\configured_feature\glowshroom_patch.json

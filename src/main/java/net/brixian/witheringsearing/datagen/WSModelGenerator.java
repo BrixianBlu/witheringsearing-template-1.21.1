@@ -24,6 +24,7 @@ public class WSModelGenerator extends FabricModelProvider {
         WitheredPlanksPool.slab(WSBlocks.WITHERED_SLAB);
         blockStateModelGenerator.registerDoor(WSBlocks.WITHERED_DOOR);
         blockStateModelGenerator.registerTrapdoor(WSBlocks.WITHERED_TRAPDOOR);
+        blockStateModelGenerator.registerNetherrackBottomCustomTop(WSBlocks.WITHERED_NYLIUM);
 
     }
 
